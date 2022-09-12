@@ -1,0 +1,7 @@
+.vscode
+*.o
+spl
+parser.hpp
+parser.cpp
+tokenizer.cpp
+tree.json
