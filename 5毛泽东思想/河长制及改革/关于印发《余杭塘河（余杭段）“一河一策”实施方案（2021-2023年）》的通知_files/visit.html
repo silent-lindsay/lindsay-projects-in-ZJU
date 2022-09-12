@@ -1,0 +1,200 @@
+
+<!-- saved from url=(0183)https://app.zjzwfw.gov.cn/vc/vc/interface/visit.jsp?type=3&i_webid=3095&i_columnid=1229176321&i_articleid=1774306&url=http://www.yuhang.gov.cn/art/2021/9/7/art_1229176321_1774306.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+(function() {
+	var i_webid = '3095'; // 脚本对应的网站UUID
+	var type = '3';
+	var i_columnid = '1229176321';
+	var i_articleid = '1774306';
+	var url = 'http://www.yuhang.gov.cn/art/2021/9/7/art_1229176321_1774306.html';
+	var vc_path = "https://app.zjzwfw.gov.cn/vc/getvc"; // vc统计接口页面
+	
+	var D = document, L = D.location, R = D.referrer, W = window, E = encodeURIComponent;
+	var iscookie = navigator.cookieEnabled ? "1" : "0";	
+	
+	var isweb = "1"//web
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) 
+	|| /Android/i.test(navigator.userAgent)
+	|| /BlackBerry/i.test(navigator.userAgent)
+	|| /IEMobile/i.test(navigator.userAgent) 
+	|| (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyErion|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+	    /* if(/iPad/i.test(navigator.userAgent)){
+	        alert("iPad平板");
+	    }else{
+	        alert("其他移动设备");
+	    } */
+		isweb = "0";
+	}else{
+	    isweb = "1";
+	}
+
+	var VC = {
+		client : {},
+		getResolution : function() {// 分辨率
+			this.client.resolution = W.screen.width + "x" + W.screen.height;
+		},
+		getColorDepth : function() {// 色深
+			this.client.color = W.screen ? W.screen.colorDepth + "-bit" : "";
+		},
+		 getRef : function() {// 来源页面
+			this.client.ref = R ? E(R) : "";
+		}, 
+		getCookieEnabled : function() {// 是否支持Cookie
+			this.client.cookie = navigator.cookieEnabled ? "1" : "0";
+		},
+		/* getJavaEnabled : function() {// 是否支持Java
+			this.client.java = navigator.javaEnabled ? "1" : "0";
+		}, */
+		getFlash : function() {// Flash版本
+			if (navigator.plugins
+					&& typeof navigator.plugins["Shockwave Flash"] == "object") {
+				var a = navigator.plugins["Shockwave Flash"].description;
+				if (a
+						&& (!navigator.mimeTypes
+								|| !navigator.mimeTypes["application/x-shockwave-flash"] || navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin)) {
+					this.client.flash = a.replace(/^.*\s+(\S+)\s+\S+$/, "$1");
+				}
+			} else {
+				if (W.ActiveXObject) {
+					try {
+						if (a = new ActiveXObject(
+								"ShockwaveFlash.ShockwaveFlash")) {
+							(version = a.GetVariable("$version"))
+									&& (this.client.flash = version.replace(
+											/^.*\s+(\d+),(\d+).*$/, "$1.$2"));
+						}
+					} catch (b) {
+					}
+				}
+			}
+		},
+		getLanguage : function() {// 语言
+			var a = navigator;
+			this.client.lan = (a.systemLanguage ? a.systemLanguage
+					: a.browserLanguage ? a.browserLanguage
+							: a.language ? a.language
+									: a.userLanguage ? a.userLanguage : "-")
+					.toLowerCase();
+		},
+		getSiteId : function() {// 网站ID
+			this.client.i_webid = i_webid;
+		},
+		getType : function() {// 信息类型
+			this.client.type = type;
+		},
+		getI_columnid : function() {// 栏目id
+			this.client.i_columnid = i_columnid;
+		},
+		getI_articleid : function() {// 文章id
+			this.client.i_articleid = i_articleid;
+		},
+		getUrl : function() {// 访问url
+			this.client.url = url;
+		},
+		getIsWeb : function() {// 访问url
+			this.client.isweb = isweb;
+		},
+		getRnd : function() {// 产生随即数
+			this.client.rnd = Math.round(Math.random() * 4000000000);
+		},
+		sameDomain : function(a, b) {// 实际域名同配置域名是否相同
+			if (b.constructor == String) {
+				var a = a.replace(/:\d+/, ""), b = b.replace(/:\d+/, ""), d = a
+						.indexOf(b);
+				return d >= 0 && d + b.length == a.length ? !0 : !1;
+			} else {
+				for ( var d = b.length, e = 0; e < d; e++) {
+					var g = b[e], f = g.length, h = a.indexOf(g);
+					if (h >= 0 && h + f == a.length) {
+						return g;
+					}
+				}
+			} 
+			return a;
+		},
+		getUV : function() {// 获得访客ID
+			var uv = "";
+			if(iscookie==0){
+				uv = 0;
+			}else if(W.localStorage){
+				uv = eval(localStorage.getItem("VC_UV"));
+				if (uv == null) {
+					var rand1 = parseInt(Math.random() * 4000000000);
+					var rand2 = parseInt(Math.random() * 4000000000);
+					uv = eval(String(rand1) + String(rand2));				
+				}			
+				localStorage.setItem("VC_UV",uv);					
+			}
+			this.client.uv = uv;
+		},
+		getSession : function() {// 获取Seesion ID
+			var session ="";
+			if(iscookie==0){
+				session = 0;
+			}else if(W.sessionStorage){
+				session = eval(sessionStorage.getItem('VC_session'));
+				if (session == null) {
+					var rand1 = parseInt(Math.random() * 4000000000);
+					var rand2 = parseInt(Math.random() * 4000000000);
+					session = eval(String(rand1) + String(rand2));
+				}
+				sessionStorage.setItem("VC_session",session);
+			}
+			this.client.session = session;
+		},		
+		postData : function() {// 发送数据
+			var param = [];
+			for ( var i in this.client) {
+				var h = E(this.client[i]);
+				if (h)
+					param.push(i + '=' + h);
+			}
+			var data = window['imgLogData'] || (window['imgLogData'] = {});
+			var a = new Image(1, 1);
+			var uid = this.unique();  
+		    a.onload = a.onerror = function () {//销毁一些对象   
+		        a.onload = a.onerror = null;  
+		        a = null;  
+		        delete data[uid];  
+		    }  
+			a.src = vc_path + '?' + param.join('&');
+			//console.log("路径："+a.src);
+		},
+		unique : function () {  
+		    var time= (new Date()).getTime()+'-', j=0;  
+		    return function () {  
+		       return time + (j++);  
+		    }  
+		},
+		init : function() {
+			//if (this.sameDomain(L.hostname, domain)) {// 域名相同才发送
+				this.getRnd();
+				this.getUV();
+				this.getSession();
+				this.getSiteId();
+				this.getType();
+				this.getI_columnid();
+				this.getI_articleid();
+				this.getUrl();
+				this.getColorDepth();
+				this.getCookieEnabled();
+				this.getFlash();
+				//this.getJavaEnabled();
+				this.getLanguage();
+				//this.getRef();//20191227注释安全漏洞问题
+				this.getResolution();
+				this.getIsWeb();
+				//this.getTitle();
+				/*this.getSecond();
+				this.getIntime();
+				this.getOuttime();*/
+				
+				this.postData();
+			//}
+		}
+	};
+	VC.init();
+			
+})();
+</script>
+</head><body></body></html>

@@ -1,0 +1,1355 @@
+/*导航公共部分开始*/
+.common-nav {
+    width: 1200px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    background: #ae0c0e;
+}
+
+.common-nav-ul {
+    width: 1200px;
+    height: 45px;
+    line-height: 45px;
+    clear: both;
+}
+
+.common-nav-ul li {
+    width: 109px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    float: left;
+    /*border-bottom: 2px solid #ffffff;*/
+}
+
+.common-nav-ul li:last-child {
+    height: 45px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
+
+}
+
+.common-nav-ul li a:hover {
+    color: #ffffff;
+}
+
+.nav-word-font {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+
+li.common-nav-show {
+    background: url("yhmh_same-1.png") -10px center no-repeat;
+    height: 45px;
+    line-height: 45px;
+}
+
+/*导航公共部分结束*/
+/*链接跳转公共部分开始*/
+.common-leader-nav {
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    background: #f3f3f3;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.common-leader-nav .leader-nav-ul:after {
+    clear: both;
+}
+
+.common-leader-nav .leader-nav-ul li {
+    float: left;
+}
+
+.common-leader-nav .leader-nav-ul li a {
+    display: inline-block;
+    color: #353535;
+}
+
+.common-leader-nav .leader-nav-ul li::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 18px;
+    vertical-align: middle;
+    background: #777777;
+    margin: 0 16px;
+}
+
+.common-leader-nav .leader-nav-ul li:last-child:after {
+    display: none;
+}
+
+.common-leader-nav .leader-nav-ul li:first-child {
+    margin-left: 10px;
+}
+
+/*链接跳转公共部分结束*/
+
+
+/*公共布局开始*/
+.public-left {
+    float: left;
+}
+
+.public-right {
+    float: left;
+}
+
+.public-wrap {
+    padding: 15px 0 30px;
+    margin-bottom: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*公共布局结束*/
+
+
+/*依法申请公开1的页面开始*/
+.still-content {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/*左侧*/
+.still-left {
+    width: 275px;
+    box-sizing: border-box;
+    padding: 0 0 0 13px;
+}
+
+.still-ul li {
+    width: 258px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #5a412c;
+    background: url("yhmh_same-3.png") 0 0 no-repeat;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.still-ul li a {
+    display: block;
+    color: #5a412c
+}
+
+.still-ul li a img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.still-ul .back-show {
+    background: url("yhmh_same-2.png") 0 0 no-repeat;
+}
+
+
+/*右侧*/
+.still-right {
+    width: 900px;
+    box-sizing: border-box;
+    padding-right: 24px;
+}
+
+/*标题*/
+
+.still-right .data-title {
+    width: 876px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #262728;
+    font-weight: bold;
+    border-bottom: 1px solid #dfd5c7;
+    margin-bottom: 12px;
+}
+
+.still-right .data-title a {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #262728;
+}
+
+.still-right .data-title img {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*标题下的内容*/
+.still-article .work-item {
+    height: 560px;
+    overflow: hidden;
+    padding: 20px 34px 25px 17px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #343434;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+}
+
+.still-article .work-item:hover {
+    overflow-y: auto;
+}
+
+.still-article .work-item .item-ul {
+    margin-left: 5px;
+}
+
+.still-article .work-item .art-word {
+    margin-bottom: 10px;
+}
+
+.still-article .work-item .item-ul p {
+    text-indent: 2em;
+    line-height: 25px;
+}
+
+/*依法申请公开1的页面结束*/
+
+
+/*网上申请的页面的开始*/
+.form-content {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.form-art-item {
+    width: 876px;
+    height: 1135px;
+    box-sizing: border-box;
+    padding: 20px 70px 20px 30px;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    border: 1px solid #dfd5c7;
+}
+
+.form-title {
+    width: 790px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*表单*/
+.net-form {
+    width: 790px;
+    height: 1050px;
+}
+
+/*选择提交部门*/
+.net-form .net-sec .layui-edge {
+    border-width: 10px;
+    border-top-color: #797a7a;
+}
+
+.layui-form-danger+.layui-form-select .layui-input,
+.layui-form-danger:focus {
+    border: none;
+}
+
+.net-form .net-sec {
+    width: 790px;
+    height: 38px;
+    margin-bottom: 30px;
+}
+
+.net-form .layui-form-select dl dd.layui-this {
+    background-color: #971b1c;
+    color: #fff;
+}
+
+.net-form .net-sec .layui-input-block {
+    width: 233px;
+    height: 36px;
+    margin: 0 auto;
+    min-height: 36px;
+    font-size: 14px;
+    color: #717c7c;
+
+}
+
+.net-form .net-sec .layui-form-select .layui-input {
+    padding-right: 30px;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+
+/*选择日期和身份*/
+.layui-form-item {
+    width: 790px;
+    margin-bottom: 15px;
+}
+
+.net-form .public-left {
+    width: 375px;
+    height: 38px;
+    text-align: right;
+
+}
+
+.net-form .public-right {
+    width: 375px;
+    height: 38px;
+    text-align: right;
+
+}
+
+.layui-form-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*左侧*/
+.layui-form-item .man .layui-input-inline {
+    float: left;
+    width: 205px;
+    margin-right: 0px;
+}
+
+.layui-form-radio>i:hover,
+.layui-form-radioed>i {
+    color: #970f1c;
+    font-size: 15px;
+}
+
+.layui-form-radio>i {
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.man .layui-form-radio {
+    height: 30px;
+    margin: 6px 0 0 0;
+    padding-right: 0px;
+    cursor: pointer;
+    font-size: 0;
+}
+
+/*右侧*/
+.layui-form-item .date .layui-input-inline {
+    float: left;
+    width: 205px;
+    font-size: 14px;
+    color: #717c7c;
+    margin-right: 0;
+}
+
+.layui-form-item .date .layui-input {
+    color: #717c7c;
+}
+
+.layui-laydate .layui-this {
+    background-color: #970f1c !important;
+    color: #fff !important;
+}
+
+
+/*姓名和职位*/
+.layout-name .layui-input {
+    background: #f6f6f6;
+}
+
+/*左侧*/
+.layout-name .public-left .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+}
+
+.layout-name .public-left .layui-input-inline {
+    float: left;
+    width: 205px;
+    margin-left: 10px;
+    margin-right: 0;
+    font-size: 14px;
+    color: #717c7c;
+}
+
+
+/*右侧*/
+.layout-name .public-right .layui-input-inline {
+    font-size: 14px;
+    color: #717c7c;
+    width: 205px;
+    margin-right: 0;
+}
+
+
+
+
+
+/*证件名称*/
+/*左侧*/
+.layout-pass .layui-input {
+    background: #f6f6f6;
+    font-size: 14px;
+    color: #717c7c;
+}
+
+.layout-pass .public-left .layui-input-inline {
+    float: left;
+    width: 205px;
+    margin-right: 0px;
+}
+
+.layout-pass .layui-form-radio {
+    height: 30px;
+    margin: 6px 0 0 0;
+    padding-right: 0px;
+    cursor: pointer;
+    font-size: 0;
+}
+
+/*右侧*/
+.layout-pass .public-right .layui-input-inline {
+    font-size: 14px;
+    color: #717c7c;
+    width: 205px;
+    margin-right: 0;
+}
+
+/*通信地址*/
+
+
+/*联系电话*/
+
+
+/*所需政府信息的内容描述*/
+.layui-textarea {
+    background: #f6f6f6;
+}
+
+.layui-form-text .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+
+}
+
+.layui-form-text .layui-input-inline {
+    width: 620px;
+
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+
+.layui-textarea {
+    font-size: 14px;
+    color: #717c7c;
+
+}
+
+/*选框*/
+
+.layout-box .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+
+}
+
+.layout-box .layui-input-inline {
+    width: 620px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #717c7c;
+}
+
+/*所需政府信息的用途*/
+.layui-form-checkbox[lay-skin=primary]:hover i {
+    border-color: #970f1c;
+
+}
+
+
+.layui-form-checkbox[lay-skin=primary] {
+    padding-left: 22px;
+}
+
+.layui-form-checked[lay-skin=primary] i {
+    border-color: #970f1c;
+    background-color: #970f1c;
+}
+
+.layout-check .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+
+}
+
+.layout-check .layui-input-inline {
+    width: 620px;
+    line-height: 35px;
+
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.layout-check .layui-form-checkbox[lay-skin=primary] {
+    margin-top: 0px;
+}
+
+.label-word {
+    font-size: 14px;
+    color: #717c7c;
+}
+
+.layout-area {
+    box-sizing: border-box;
+}
+
+
+/*减免费用*/
+.layout-art .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+
+}
+
+.layout-art .layui-form-checkbox[lay-skin=primary] span {
+    width: 220px;
+
+}
+
+.layout-art .layui-input-inline {
+    width: 620px;
+    line-height: 35px;
+
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.layout-art .layui-form-checkbox[lay-skin=primary] {
+    margin-top: 0px;
+}
+
+.layout-art .label-word {
+    float: left;
+}
+
+.art-cheked {
+    float: left;
+    width: 540px;
+}
+
+
+/*上传附件*/
+.layout-type .layui-form-label {
+    width: 143px;
+    padding: 9px 0px;
+
+}
+
+.layout-type .layui-input-inline {
+    width: 620px;
+    text-align: center;
+
+    box-sizing: border-box;
+    margin-left: 15px;
+    background: #f6f6f6;
+    padding: 10px 35px;
+}
+
+.type-word {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.type-btn {
+    width: 540px;
+    margin: 0 auto;
+
+}
+
+.type-btn a {
+    width: 120px;
+    outline: none;
+    background: #ddd6c4;
+    text-decoration: underline;
+    float: left;
+}
+
+.type-btn a:hover {
+    border: 1px solid #ddd6c4;
+}
+
+.type-btn input {
+    width: 384px;
+    float: right;
+    font-size: 14px;
+    color: #717c7c;
+}
+
+/*提交按钮*/
+.layout-red .layui-input-block {
+
+    text-align: center;
+    margin-left: 0;
+}
+
+.layout-red .layui-input-block .layui-btn {
+    width: 170px;
+    height: 40px;
+    background: #ae0c0e;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.layout-foot {
+    text-align: center;
+    font-size: 14px;
+    color: #717c7c;
+}
+
+/*依法申请2的页面的结束*/
+
+
+
+
+/*公开目录首页1开始*/
+.compass-content {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/*左侧布局*/
+.compass-left {
+    width: 265px;
+    height: 750px;
+    box-sizing: border-box;
+    padding: 0 0 10px 5px;
+}
+
+/*1*/
+.com-one ul li {
+    width: 256px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #8c7c6c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    position: relative;
+    border: 1px solid #dfd8c7;
+    border-radius: 5px;
+    background: url("yhmh_com-1.png") center no-repeat;
+    margin-bottom: 10px;
+}
+
+.com-one-ul li:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.com-one-ul li a {
+    width: 256px;
+    height: 44px;
+    color: #8c7c6c;
+    display: block;
+}
+
+.com-one-ul li a img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+/*2*/
+.com-two-title {
+    width: 256px;
+    height: 42px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #53524e;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    background: #f2eddb;
+    margin-bottom: 10px;
+}
+
+.com-two-title img {
+    margin-left: 15px;
+}
+
+.com-two-art {
+    width: 256px;
+    height: 225px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background: #fffdf5;
+    color: #6a6866;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    margin-bottom: 10px;
+}
+
+.two-art-wen p {
+    text-indent: 2em;
+    position: relative;
+}
+
+.two-art-wen a {
+    color: #a66461;
+    position: absolute;
+    right: 10px;
+}
+
+.two-art-btn {
+    margin: 10px 0;
+}
+
+.btn-txt a {
+    display: inline-block;
+    width: 108px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #6a6866;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dfd8c7;
+}
+
+.btn-result a {
+    display: inline-block;
+    width: 222px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #6a6866;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dfd8c7;
+    margin-top: 15px;
+}
+
+/*3*/
+.con-three-ul li.con-li {
+    width: 258px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #746050;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: url("yhmh_same-3.png") center no-repeat;
+}
+
+.con-three-ul li a {
+    color: #746050;
+}
+
+.con-three-ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #5a412c;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.con-three-ul li:last-child a {
+    display: inline-block;
+    width: 125px;
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #746050;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    background: url("yhmh_com-4.png") center no-repeat;
+}
+
+.con-three-ul li a:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+/*右侧布局*/
+.compass-right {
+    width: 910px;
+    /*height: 750px;*/
+	height:aoto;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+/*公共链接标题*/
+.list-link::after {
+    clear: both;
+}
+
+.compass-right .list-link {
+    width: 890px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.link-left {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ae0c0e;
+}
+
+.link-left span {
+    display: inline-block;
+    width: 5px;
+    height: 20px;
+    margin: 0 10px;
+    background: #ae0c0e;
+    vertical-align: middle;
+}
+
+.link-right {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #363636;
+}
+
+.link-right a {
+    color: #363636;
+}
+
+/*1*/
+.new-one {
+    width: 890px;
+    height: 285px;
+}
+
+/*公共布局*/
+.new-one .new-same-list {
+    width: 890px;
+    height: 235px;
+    overflow: hidden;
+    border: 1px solid #bfbfbf;
+}
+
+.new-one .content_right_ul:first-child {
+    width: 890px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #585858;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.new-one .content_right_ul {
+    width: 890px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #585858;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.new-one .content_right_ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+.new-one .content_right_ul:last-child {
+    border-bottom: none;
+}
+
+.new-one .content_right_ul li a {
+    color: #757575;
+}
+
+.content_right_ul li a:hover {
+    color: #ae0c0e;
+    text-decoration: underline;
+}
+
+.list-mark {
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-issue {
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*2*/
+.new-two {
+    width: 890px;
+    height: 250px;
+}
+
+.new-two-image {
+    width: 890px;
+    height: 196px;
+    border: 1px solid #bfbfbf;
+}
+
+.new-two-image li {
+    width: 96px;
+    height: 67px;
+    line-height: 38px;
+    text-align: center;
+    margin: 15px 24px;
+    float: left;
+}
+
+.new-two-image li a {
+    display: inline-block;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #363636;
+}
+
+.new-two-image li a:hover img {
+    transform: rotate(360deg);
+    transition: 0.3s;
+}
+
+
+/*3*/
+.new-three {
+    width: 890px;
+    height: 200px;
+}
+
+/*选项卡开始*/
+.new-three .layui-tab {
+    width: 890px;
+    height: 150px;
+    margin-top: 0px;
+    overflow: hidden;
+    border: 1px solid #bfbfbf;
+}
+
+.new-three .layui-tab-content {
+    padding: 0;
+}
+
+.new-three .layui-tab .layui-tab-title {
+    width: 890px;
+    height: 42px;
+    margin-left: 0px;
+}
+
+.new-three .layui-tab .layui-tab-title li {
+    width: 156px;
+    height: 47px;
+    line-height: 47px;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6c6c6c;
+    border-top: 2px solid #fff;
+}
+
+.new-three .layui-tab .layui-tab-title li.layui-this {
+    border-top: 2px solid #754523;
+    color: #ae0c0e;
+}
+
+/*选项卡结束*/
+.new-three .all-ul {
+    clear: both;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+
+.new-three .dis-ul {
+    width: 205px;
+    float: left;
+    margin-right: 8px;
+}
+
+.new-three .dis-ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 30px;
+}
+
+.new-three .dis-ul li a {
+    display: block;
+    font-size: 14px;
+    color: #686868;
+}
+
+.new-three .dis-ul li a:hover {
+    text-decoration: underline;
+}
+
+.new-three .dis-ul li a .dis-block {
+    width: 170px;
+    display: inline-block;
+}
+
+.new-three li a.dis-look img {
+    margin-bottom: 28px;
+}
+
+.new-three .dis-ul li img {
+    margin-right: 5px;
+}
+
+
+
+/*公开目录首页1结束*/
+
+/*政务公开目录首页开始*/
+.town-left-logo {
+    width: 258px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #852f1a;
+    position: relative;
+    margin-bottom: 6px;
+    background: url("yhmh_same-6.png") center no-repeat;
+}
+
+/*左侧文件菜单为公共部分*/
+/*对应的内容*/
+.town-menu-art {
+    width: 256px;
+    height: 372px;
+    background: #fffdf5;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #fffdf5;
+    overflow-y: auto;
+}
+
+.art-people {
+    height: 35px;
+    line-height: 35px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+
+.art-people img {
+    margin-right: 10px;
+}
+
+
+
+
+/*政务公开目录首页2结束*/
+
+/*部门镇街信息页面开始*/
+.town-content {
+    width: 1200px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+/*左侧布局*/
+.town-left {
+    width: 265px;
+    /*height: 700px;*/
+	min-height: 700px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.town-ul li {
+    width: 258px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5a412c;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.town-ul li a {
+    width: 258px;
+    height: 47px;
+    line-height: 47px;
+    background: url("yhmh_same-3.png") center no-repeat;
+    display: block;
+    color: #5a412c;
+}
+
+.town-ul li a img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+.town-ul li a.town-back {
+    background: url("yhmh_same-2.png") center no-repeat;
+}
+
+.img-hide {
+    display: none;
+}
+
+
+
+
+/*右侧布局*/
+.town-right {
+    width: 912px;
+	margin-left: 10px;
+}
+
+/*标题*/
+/*.town-right .data-title {
+    width: 870px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #262728;
+    font-weight: bold;
+    border-bottom: 1px solid #dfd5c7;
+
+}*/
+.town-right .data-title {
+    margin-right: 26px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: rgb(38, 39, 40);
+    border-bottom: 1px solid rgb(223, 213, 199);
+}
+
+.town-right .data-title a {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    
+    color: #262728;
+}
+
+.town-right .data-title img {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin-right: 10px;
+	vertical-align: -2px;
+}
+
+/*表单*/
+.town-form {
+    width: 870px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 20px 0 0 0;
+    margin-bottom: 5px;
+}
+
+.town-form .layui-form-item {
+    width: 870px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+
+/*标题搜索*/
+.town-form .layui-form-label {
+    padding: 9px 0;
+    width: 32px;
+    margin-right: 5px;
+}
+
+.town-form .layui-form-item .form-text {
+    width: 499px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.form-text .layui-input {
+    background-color: #fafcfc;
+}
+
+/*选择框*/
+.town-form .layui-form-select dl dd.layui-this {
+    background-color: #d51414;
+    color: #fff;
+}
+
+.town-form .form-mold {
+    width: 118px;
+    border-radius: 5px;
+}
+
+.town-form .form-all {
+    width: 90px;
+}
+
+/*检索*/
+.town-form .form-btn {
+    width: 67px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #d51414;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.town-form .form-btn a {
+    display: block;
+    width: 67px;
+    background: #d51414;
+    color: #FFFFFF;
+}
+
+
+
+/*索引*/
+.town-right .new-same-list {
+    width: 870px;
+    overflow: hidden;
+    border: 1px solid #bfbfbf;
+}
+
+.town-right .same-list-one:first-child {
+    width: 890px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #585858;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.town-right .same-list-one{
+    width: 890px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #585858;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.town-right .same-list-one li {
+    float: left;
+    margin: 0 20px;
+}
+
+.town-right .same-list-one:last-child {
+    border-bottom: none;
+}
+
+.town-right .content_right_ul li a {
+    color: #757575;
+}
+
+.town-right .content_right_ul li a:hover {
+    color: #ae0c0e;
+    text-decoration: underline;
+}
+
+/*分页*/
+.town-page {
+    width: 795px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    color: #333;
+    font-size: 14px;
+}
+
+.town-page a {
+    color: #333;
+}
+
+.town-page .page-one {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 15px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #bfbfbf;
+}
+
+.page-two input {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    height: 28px;
+    vertical-align: middle;
+    line-height: 28px;
+    border: 1px solid #bfbfbf;
+}
+
+.town-page .layui-laypage a,
+.town-page .layui-laypage span {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0px 4px 0px 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+    position: absolute;
+    left: -1px;
+    top: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fffdf5;
+    border: 1px solid #776253;
+}
+
+.layui-laypage .layui-laypage-curr em {
+    position: relative;
+    color: #776253;
+}
+
+
+/*部门镇街信息页面结束*/

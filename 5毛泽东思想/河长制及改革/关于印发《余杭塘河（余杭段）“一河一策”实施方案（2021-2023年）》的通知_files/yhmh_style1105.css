@@ -1,0 +1,474 @@
+/* 侧边菜单修改 */
+.town-left-noBold {
+    height: auto;
+}
+
+.town-left-noBold .town-left-logo {
+    height: 61px;
+    line-height: 61px;
+    font-weight: 700;
+}
+
+.town-left-noBold .side-menu dl dt a {
+    font-weight: 700;
+}
+
+.side-menu dl.active dt a i.noDD {
+    background: url('yhmh_hide.png') no-repeat center;
+}
+
+/* 侧边菜单 链接 */
+.side-menu3 dl dd {
+    padding: 0 16px;
+}
+
+.side-menu3 dl dt {
+    background: url('yhmh_same-3.png') center center no-repeat;
+}
+
+.side-menu3 dl.active dt {
+    background: url('yhmh_mess-1 (2).png') center center no-repeat;
+}
+
+.side-dd-link p {
+    border-top: 1px dotted #e5dfd1;
+}
+
+.side-dd-link p:first-child {
+    border-top: none;
+}
+
+.side-dd-link a {
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+s
+
+/* 图片列表一 */
+.pic-list-1 {
+    margin-top: 11px;
+    margin-right: 26px;
+    padding-top: 18px;
+    padding-left: 46px;
+    padding-bottom: 8px;
+    border: 1px solid #e5e5e5;
+}
+
+.pic-list-1 ul {
+    width: 885px;
+    overflow: hidden;
+}
+
+.pic-list-1 li {
+    margin-right: 80px;
+    float: left;
+    width: 215px;
+}
+
+.pic-list-1 li .pic a {
+    padding: 5px;
+    display: block;
+    border: 1px solid #e5e5e5;
+}
+
+.pic-list-1 li .pic a:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+.pic-list-1 li .pic a img {
+    display: block;
+    width: 203px;
+    height: 83px;
+}
+
+.pic-list-1 li .text {
+    margin-bottom: 12px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.pic-list-1 li .text a {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 图片列表二 */
+.pic-list-2 {
+    margin-top: 11px;
+    margin-right: 26px;
+	min-height:504px
+}
+
+.pic-list-2 ul {
+    width: 904px;
+    overflow: hidden;
+}
+
+.pic-list-2 li {
+    margin-right: 27px;
+    float: left;
+    width: 199px;
+}
+
+.pic-list-2 li .pic a {
+    padding: 5px;
+    display: block;
+    border: 1px solid #e5e5e5;
+}
+
+.pic-list-2 li .pic a:hover {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}
+
+.pic-list-2 li .pic a img {
+    display: block;
+    width: 187px;
+    height: 118px;
+}
+
+.pic-list-2 li .text {
+    line-height: 38px;
+    text-align: center;
+}
+
+.pic-list-2 li .text a {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 文字列表一 */
+.text-list-1 {
+    margin-top: 5px;
+    margin-right: 26px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #bfbfbf;
+	height:501px;
+}
+
+.text-list-1 ul {}
+
+.text-list-1 li {
+    border-top: 1px dashed #cbcbcb;
+}
+
+.text-list-1 li:first-child {
+    border-top: none;
+}
+
+.text-list-1 li a {
+    padding: 0 15px 0 26px;
+    position: relative;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #333333;
+    overflow: hidden;
+}
+
+.text-list-1 li a:after {
+    margin-top: -2px;
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #8c1515;
+    border-radius: 50%;
+}
+
+.text-list-1 li a:hover {
+    color: #8c1515;
+}
+
+.text-list-1 li span {
+    float: left;
+    width: 70%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-list-1 li i {
+    float: right;
+}
+
+/* 文章详情 */
+.article-panel {
+    padding: 12px 0 36px;
+}
+
+.article-panel .data-title {
+    margin-left: 12px;
+    margin-right: 26px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: rgb(38, 39, 40);
+    border-bottom: 1px solid #ae0c0e;
+}
+
+.article-panel .data-title a {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #262728;
+}
+
+.article-panel .data-title img {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: -2px;
+}
+
+.article-panel .article-title {
+    padding: 12px 20px;
+    color: #030303;
+    text-align: center;
+}
+
+.article-panel .article-title h3 {
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+	padding: 15px;
+}
+
+.article-panel .article-title p {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.article-panel .article-body {
+    margin: 0 26px;
+    padding: 18px 18px 0;
+    border: 1px solid #e5e5e5;
+}
+
+.article-body .article-content {
+    line-height: 24px;
+    font-size: 14px;
+    color: #030303;
+}
+
+.article-body .article-content p {
+    /*text-indent: 2em;*/
+}
+
+.article-body .article-list {
+    margin: 0 13px;
+    padding: 18px 0;
+    border-top: 1px dashed #e5e5e5;
+}
+
+.article-body .article-list-ul {
+    float: left;
+    width: 50%;
+}
+
+.article-body .article-list-ul ul {
+    padding: 0 20px;
+}
+
+.article-body .article-list-ul ul li a {
+    padding-left: 15px;
+    position: relative;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.article-body .article-list-ul ul li a:after {
+    margin-top: -2px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #8c1515;
+    border-radius: 50%;
+}
+
+.article-body .article-list-ul ul li a:hover {
+    color: #8c1515;
+}
+
+.article-body .article-tools {
+    padding: 14px 0;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+.article-body .article-tools .share {
+    float: left;
+}
+
+.article-body .article-tools .right-tools {
+    float: right;
+    text-align: right;
+}
+
+.article-body .article-tools .right-tools a {
+    font-size: 14px;
+    color: #262728;
+}
+
+.article-body .article-tools .right-tools a:hover {
+    color: #8c1515;
+}
+
+/* 站点详情 */
+.link-list-1 {
+    margin-top: 14px;
+    margin-right: 26px;
+    margin-bottom: 40px;
+}
+
+.link-list-1 dl {
+    margin-bottom: 17px;
+    padding: 6px 6px 6px 7px;
+    position: relative;
+    border: 1px solid #dfd5c7;
+    overflow: hidden;
+}
+
+.link-list-1 dl dt {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    bottom: 6px;
+    width: 150px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #42080d;
+    background: url('yhmh_link-bg1.png') no-repeat center;
+    text-align: center;
+}
+
+.link-list-1 dl dt:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+
+}
+
+.link-list-1 dl dd {
+    margin-left: 159px;
+    padding: 2px 0;
+    background-color: #f9f6ed;
+}
+
+.link-list-1 dl dd ul {
+    width: 720px;
+    overflow: hidden;
+}
+
+.link-list-1 dl dd li {
+    float: left;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.link-list-1 dl dd li a {
+    padding-left: 26px;
+    position: relative;
+    font-size: 14px;
+    color: #333333;
+}
+
+.link-list-1 dl dd li a:after {
+    margin-top: -5px;
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    background: url('yhmh_link-ico-1.png') no-repeat center;
+}
+
+.link-list-1 dl dd li a:hover {
+    color: #8c1515;
+}
+
+.link-list-1 dl.link-dl-inline dd ul {
+    width: 100%;
+    text-align: center;
+}
+
+.link-list-1 dl.link-dl-inline dd li {
+    float: none;
+    display: inline-block;
+}
+
+.link-list-1 dl.link-dl-inline dd li:first-child {
+    margin-right: 200px;
+}
+
+.link-list-1 dl.link-dl-col4 dd ul li {
+    margin-left: 25px;
+    width: 145px;
+}
+
+/* rss订阅 */
+.rss-side {
+    width: 258px;
+    height: 585px;
+    background: url('yhmh_rss-bg.png') no-repeat center;
+}
+
+.rss-side p {
+    padding-top: 92px;
+    padding-left: 24px;
+    padding-right: 20px;
+    line-height: 24px;
+    font-family: simsun;
+    font-weight: 700;
+    font-size: 14px;
+    color: #5a412c;
+}
+
+.rss-text {
+    line-height: 28px;
+    font-size: 14px;
+    color: #333333;
+}
+.rss-text dt span {
+    color: #ae0c0e;
+}
+.rss-text dt a {
+    color: #ae0c0e;
+}
+.rss-text dd p {
+    text-indent: 2em;
+}

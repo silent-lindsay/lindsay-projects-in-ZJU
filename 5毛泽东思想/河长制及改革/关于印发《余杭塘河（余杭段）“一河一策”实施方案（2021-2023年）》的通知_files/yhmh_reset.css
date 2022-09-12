@@ -1,0 +1,117 @@
+/*================基本样式重置================*/
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+span,
+i,
+a,
+em,
+strong,
+b,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+i,
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  /* min-width: 1200px; */
+  position: relative;
+  font: 12px/1.5 \5b8b\4f53, tahoma, arial, sans-serif;
+  font-family: "Microsoft Yahei";
+}
+li {
+  list-style: none;
+}
+a,
+img,
+input {
+  border: 0 none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus,
+input:focus {
+  outline: 0 none;
+}
+textarea {
+  resize: none;
+  font-size: 12px;
+} /*去掉火狐和谷歌浏览器的Textarea改变尺寸大小功能*/
+
+/*========定义基础样式========*/
+.hide {
+  display: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/*a标签鼠标hover高亮显示状态（可选用）*/
+a .opacity {
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -moz-opacity: 1;
+}
+a:hover .opacity {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+/* End hide from IE-mac */
+* + html .clearfix {
+  min-height: 1%;
+}
+*html {
+  zoom: expression(
+    function(ele){ele.style.zoom = "1"
+      ;document.execCommand("BackgroundImageCache", false, true)} (this)
+  );
+}
+
+/*主体宽度样式（可选用）如有新宽度，命名规则以小写w开头，后接具体宽度数据，例：*/
+.w1200 {
+  width: 1200px;
+  margin: 0px auto;
+}

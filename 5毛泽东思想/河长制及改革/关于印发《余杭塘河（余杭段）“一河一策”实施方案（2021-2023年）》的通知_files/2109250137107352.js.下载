@@ -1,0 +1,141 @@
+document.writeln("<style>");
+document.writeln("");
+document.writeln("  /* 登录样式 begin */");
+document.writeln("");
+document.writeln("  .loginItems a{display: block;color:#333;}");
+document.writeln("");
+document.writeln("  #loginn {position: relative;display: inline-block;font-size: 16px;color: #254694;}");
+document.writeln("");
+document.writeln("  .user-center {position: absolute;width: 90px;height: 70px;text-align: center;background: url(http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3096/site/picture/1330/2012101025462341435.png) no-repeat 0 0px;display: none;line-height: 30px;padding-top: 9px;left: 50%;margin-left: -45px;border-radius: 5px;z-index: 5;}");
+document.writeln("");
+document.writeln("  .user-center>a {display:block;line-height:30px;text-align:center;color:#333;}");
+document.writeln("");
+document.writeln("  .user-center>p:hover,.user-center>a:hover {color: #1492ff;}");
+document.writeln("");
+document.writeln("  .loginBtns {width: auto;margin:0 0px;;font-size:14px;line-height: normal;color: #012E22;text-align: center;cursor:pointer;}");
+document.writeln("");
+document.writeln("  .loginItems {position: absolute;width: 90px;height: 71px;text-align: center;background: url(http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1/site/picture/-1/zjzwfw_2019_dlbjdc.png) no-repeat 0 -1px;font-size: 14px;display: none;line-height: 30px;padding-top: 12px;left: -19px;border-bottom: 1px solid #eeeeee;z-index:999;}");
+document.writeln("");
+document.writeln("  .loginBtns:hover .loginItems {display: block;}");
+document.writeln("#top_Hidelist_LB li{line-height:27px;}");
+document.writeln("#loginn p{margin:auto !important;}");
+document.writeln("");
+document.writeln("  /* 登录样式 end */");
+document.writeln("");
+document.writeln("</style>");
+document.writeln(" <div class=\'top-part\' style=\'position:relative;\'>");
+document.writeln("      <div class=\'top-head\'>");
+document.writeln("<img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/picture/1565/s2111021600187417818.png\'style=\'position:relative;top:20px;left:40px\'>");
+document.writeln("</div>");
+//隐藏列表栏目
+document.writeln("<div style=\'position: absolute;top:5px;right:3px;\'>");
+document.writeln("<div id=\'top_Hidelist_BQ\' style=\'float:right;\'>");
+document.writeln("<span style=\'height: 3px;width: 20px;background-color: red;display: block;margin-top: 3px;\'></span>");
+document.writeln("<span style=\'height: 3px;width: 20px;background-color: red;display: block;margin-top: 3px;\'></span>");
+document.writeln("<span style=\'height: 3px;width: 20px;background-color: red;display: block;margin-top: 3px;\'></span>");
+document.writeln("</div>");
+document.writeln("<div id=\'top_Hidelist_LB\' style=\'display: none;position: absolute; top: 18px; right: 1px;z-index: 999;\'>");
+document.writeln("<ul style=\'background-color: antiquewhite;width: 83px;text-align: center;\'>");
+document.writeln("<li style=\'margin-top: 5px;border-bottom: white solid;list-style: none;\'><a href=\'https://www.zjzwfw.gov.cn/jfaqfront_robot/index.html?webid=9#/\' style=\'color: black;text-decoration: none;font-size: 0.7em;\'>智能问答</a></li>");
+document.writeln("<li style=\'margin-top: 5px;border-bottom: white solid;list-style: none;\'><a href=\'http://data.tjj.zj.gov.cn/page/systemmanager/admin/homePage.jsp?orgCode=330110\' style=\'color: black;text-decoration: none;font-size: 0.7em;\'>统计数据</a></li>");
+document.writeln("<li style=\'margin-top: 5px;border-bottom: white solid;list-style: none;\'><a href=\'https://data.hz.zjzwfw.gov.cn/dop/tpl/dataOpen/dataList.html?text=%E4%BD%99%E6%9D%AD%E5%8C%BA&code=001008001008\' style=\'color: black;text-decoration: none;font-size: 0.7em;\'>数据开放</a></li>");
+document.writeln("<li  style=\'margin-top: 5px;border-bottom: white solid;list-style: none;\'><a href=\"javascript:void(0);\"  onclick=\"document.getElementById('toolbarSwitch').click();\" style=\'color: #333;\'>无障碍浏览</a></li>");
+document.writeln("<li><a><div id=\'loginn\'>   <div class=\'loginBtns\'>用户中心 </div>");
+document.writeln("</div></a></li>");
+document.writeln("</ul>");
+document.writeln("</div>");
+document.writeln("</div>");
+//结束
+document.writeln("      <div class=\'top-nav\'>");
+document.writeln("        <div class=\'top-index active\'>");
+document.writeln("          <a href=\'http://www.yuhang.gov.cn/\'>首页</a>");
+document.writeln("        </div>");
+document.writeln("        <ul class=\'top-list\'>");
+document.writeln("          <li>");
+document.writeln("            <a href=\'http://www.yuhang.gov.cn/col/col1532115/index.html\'>走进余杭</a>");
+document.writeln("          </li>");
+document.writeln("          <li>");
+document.writeln("            <a href=\'http://www.yuhang.gov.cn/col/col1532116/index.html\'>今日余杭</a>");
+document.writeln("          </li>");
+document.writeln("          <li>");
+document.writeln("            <a href=\'http://www.yuhang.gov.cn/col/col1229172913/index.html\'>政务公开</a>");
+document.writeln("          </li>");
+document.writeln("          <li>");
+document.writeln("            <a href=\'http://www.yuhang.gov.cn/col/col1532119/index.html\'>公众参与</a>");
+document.writeln("          </li>");
+document.writeln("          <li>");
+document.writeln("            <a  href=\'https://www.zjzwfw.gov.cn/zjservice/home/person/index.do?webId=9&classify=2\'>政务服务</a>");
+document.writeln("          </li>");
+document.writeln("          <li>");
+document.writeln("            <a  href=\'http://www.yuhang.gov.cn/col/col1532117/index.html\'>畅游余杭</a>");
+document.writeln("          </li>");
+document.writeln("        </ul>");
+document.writeln("      </div>");
+document.writeln("      <div class=\'search-box\'>");
+document.writeln("        <div class=\'search\'>");
+document.writeln("          <form id=\'searchForm\' action=\'http://search.zj.gov.cn/jrobotfront/search.do\' method=\'get\' target=\'_blank\'>");
+document.writeln("            <input id=\'q\' name=\'q\'  type=\'text\' maxlength=\'40\' class=\'search-input\' onclick=\"if(this.value==\'请输入您要查询的关键词\') {this.value=\' \';this.focus();}\" onblur=\"if(this.value==\' \'){this.value=\'请输入您要查询的关键词\'}\" autocomplete=\"off\" value=\"请输入您要查询的关键词\" onkeypress=\"if(this.value==\'请输入您要查询的关键词\') {this.value=\' \';this.focus();}\" autocomplete=\'off\' value=\'\' placeholder=\'请输入您要查询的关键词\'>");
+document.writeln("            <input name=\'websiteid\' type=\'hidden\' value=\'330110000000000\'>");
+document.writeln("            <input id=\'Municipal_webid\' name=\'Municipal_webid\' type=\'hidden\' value=\'330101000000000\'>");
+document.writeln("            <input id=\'Municipal_name\' name=\'Municipal_name\' type=\'hidden\' value=\'杭州市\'>");
+document.writeln("            <input id=\'isContains\' name=\'isContains\' type=\'hidden\' value=\'0\'>");
+document.writeln("            <input name=\'searchid\' type=\'hidden\' value=\'167\'>");
+document.writeln("            <input name=\'status\' type=\'hidden\' value=\'167\'>");
+document.writeln("            <input name=\'pos\' id=\'pos\' type=\'hidden\' value=\'\'>");
+document.writeln("            <input name=\'p\' type=\'hidden\' value=\'1\'>");
+document.writeln("            <input name=\'tpl\' type=\'hidden\' value=\'2306\'>");
+document.writeln("<input class=\'search-btn\' type=\'submit\' value=\'\'>");
+document.writeln("          </form>");
+document.writeln("        </div>");
+document.writeln("      </div>");
+document.writeln("    </div>");
+document.writeln(" <style>");
+document.writeln("      @media screen and (min-width: 100px) and (max-width: 1024px){");
+document.writeln("        #searchForm {");
+document.writeln("          width:100%;");
+document.writeln("          display:flex;");
+document.writeln("          }");
+document.writeln(".top-part .search-box .search .search-btn{");
+document.writeln("            background-image: url(https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/41564/mobile-search-icon.png);");
+document.writeln("            background-repeat: no-repeat;");
+document.writeln("background-position: 50%;");
+document.writeln("          }");
+document.writeln("          }");
+document.writeln("    </style>");
+var btn = document.getElementById("top_Hidelist_BQ");
+var dis = document.getElementById("top_Hidelist_LB");		
+var str2 = "none";
+btn.onclick = function() {
+var str = dis.style["display"];
+var str1 = str==str2;
+if(str1){
+document.getElementById("top_Hidelist_LB").style.display = "inline";
+}else{
+document.getElementById("top_Hidelist_LB").style.display = "none";
+}
+}
+var currentAdd = window.location.href;
+var currentLoginUrl = "http://www.yuhang.gov.cn/yuhangyhzx"; //需要更改的代码中的域名地址和应用名称
+function jsload(data) {
+    // 是否是登录的
+    if (data.islogin) {
+        var userSrc = data.gotourl;
+        var loginoutScr = currentLoginUrl + "/member/login/logout.do?src=" + currentAdd;
+        $("#loginn").empty();
+        $("#loginn").html('<p style="cursor:default;margin:0 20px;font-size:12px;color:#012E22;">用户中心</p><div class="user-center"><a style="margin:0;font-size:14px;" href="' + userSrc + '" target="_blank">查看详情</a><a style="margin:0;font-size:14px;" class="login-out" href="' + loginoutScr + '">退出</p></div>');
+    } else {
+        var grSrc = data.grloginurl + "&goto=" + currentAdd;
+        var frSrc = data.frloginurl + "?goto=" + currentAdd;
+        var loginHtml = "用户中心<div class=\"loginItems\"><a style=\"margin:0;\" class=\"gr_login\" href=\"" + grSrc + "\">个人用户</a><a style=\"margin:0;\" class=\"fr_login\" href=\"" + frSrc + "\">法人用户</a></div>";
+        $(".loginBtns").html(loginHtml);
+    }
+    $("#loginn>p,.user-center").hover(
+        function() {
+            $(".user-center").show();
+        },
+        function() {
+            $(".user-center").hide();
+        }
+    );
+};
+document.writeln('<script type="text/javascript" src="' + currentLoginUrl + '/member/login/showUserResult.do">\<\/script>');

@@ -1,0 +1,222 @@
+document.writeln("<style>");
+
+document.writeln("    /***********底部************/");
+
+document.writeln(".friend-link {");
+
+document.writeln("    height: 100px;");
+
+document.writeln("    text-align: center;");
+
+document.writeln("    line-height: 100px;");
+
+document.writeln("}");
+
+document.writeln("  .friend-link a {");
+document.writeln("    margin-left: 0px;");
+
+document.writeln("    margin-right: 45px;");
+
+document.writeln("    display: inline-block;");
+
+document.writeln("    vertical-align: middle;");
+
+document.writeln("}");
+
+document.writeln("  .layout-footer {");
+
+document.writeln("  padding-top: 15px;");
+
+document.writeln("  padding-bottom: 60px;");
+
+document.writeln("  background-color: #ddd6c4;");
+
+document.writeln("  border-top: 5px solid #776253;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-nav {");
+
+document.writeln("  margin-bottom: 20px;");
+
+document.writeln("  line-height: 30px;");
+
+document.writeln("  font-size: 14px;");
+
+document.writeln("  color: #333;");
+
+document.writeln("  text-align: center;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-nav a {");
+
+document.writeln("  color: #333;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid {");
+
+document.writeln("  margin: 0 auto;");
+
+document.writeln("  padding-left: 223px;");
+
+document.writeln("  padding-right: 291px;");
+
+document.writeln("  position: relative;");
+
+document.writeln("  width: 1200px;");
+
+document.writeln("  line-height: 30px;");
+
+document.writeln("  box-sizing: border-box;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid .footer-mid-left {");
+
+document.writeln("  position: absolute;");
+
+document.writeln("  left: 160px;");
+
+document.writeln("  top: 0;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid .footer-mid-center {");
+
+document.writeln("  text-align: center;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid .footer-mid-center img {");
+
+document.writeln("  margin: 0 4px;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid .footer-mid-right {");
+
+document.writeln("  position: absolute;");
+
+document.writeln("  right: 0;");
+
+document.writeln("  top: -10px;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid .footer-mid-right img {");
+
+document.writeln("  margin-right: 24px;");
+
+document.writeln("}");
+
+document.writeln(".layout-footer .footer-mid img {");
+
+document.writeln("  display: inline-block;");
+
+document.writeln("  vertical-align: middle;");
+
+document.writeln("}");
+
+document.writeln("</style>");
+
+document.writeln("<div class=\'friend-link\'>");
+
+document.writeln("    <a href=\'http://www.gov.cn/\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/picture/0/451560b0e5794ef2b9e5c706c1a4026b.png\' alt=\'pic\'></a>");
+
+/*document.writeln("    <a href=\'http://121.43.68.40/exposure/jiucuo.html?site_code=3301100001&url=http%3A%2F%2Fwww.yuhang.gov.cn%2F\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_friend-link2.png\' alt=\'pic\'></a>");*/
+
+document.writeln("    <a href=\'http://www.zj.gov.cn\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/picture/0/38a0c86fa84241eba245c8a3e8ad2e40.png\' height=\'45\' alt=\'pic\'></a>");
+
+document.writeln("    <a href=\'http://www.zjzwfw.gov.cn/\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_friend-link5.png\' alt=\'pic\'></a>");
+
+document.writeln("    <a href=\'http://www.hangzhou.gov.cn/\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_footer-pic1.png\' alt=\'pic\'></a>");
+
+document.writeln("    <a href=\'https://zhejiang.tianditu.gov.cn/yuhang/\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_footer-tdt1.png\' alt=\'pic\'></a>");
+
+document.writeln("</div>");
+
+
+
+document.writeln("<div class=\'layout-footer\'>");
+
+document.writeln("    <div class=\'footer-nav\' style=\'font-size:14px;font-family:微软雅黑\'>");
+
+document.writeln("        <a href=\'http://www.yuhang.gov.cn/col/col1568855/index.html\' target=\'_blank\' style=\'text-decoration: none\'>网站地图</a>    |    ");
+
+document.writeln("        <a href=\'https://www.yuhang.gov.cn//art/2021/7/27/art_1568854_25980029.html\' target=\'_blank\' style=\'text-decoration: none\'>关于我们</a>    |    ");
+
+document.writeln("        <a href=\'http://www.yuhang.gov.cn/art/2021/7/27/art_1568853_25980981.html\' target=\'_blank\' style=\'text-decoration: none\'>郑重声明</a>    |    ");
+
+document.writeln("        <a href=\'http://www.yuhang.gov.cn/art/2021/7/27/art_1568852_25983367.html\' target=\'_blank\' style=\'text-decoration: none\'>隐私保护</a>        ");
+
+<!--document.writeln("        <a href=\'https://www.yuhang.gov.cn//art/2021/7/27/art_1568851_25983372.html\' target=\'_blank\' style=\'text-decoration: none\'>使用帮助</a>    |    ");-->
+
+document.writeln("    </div>");
+
+document.writeln("    <div class=\'footer-mid\'>");
+
+document.writeln("        <div class=\'footer-mid-left\'>");
+
+document.writeln("            <a href=\'http://bszs.conac.cn/sitename?method=show&id=068AA9B36E9A0580E053022819ACB6FE\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_friend-link3.png\' alt=\'pic\'></a>");
+
+document.writeln("        </div>");
+
+document.writeln("        <div class=\'footer-mid-center\' style=\'font-size:12px;font-family:微软雅黑;width:700px;\'>");
+
+document.writeln("            主办：中共杭州市余杭区委员会、杭州市余杭区人民政府    承办：杭州市余杭区数据资源管理局<br />市民热线：0571-89312345    网站维护：0571-88729830<br>");
+
+document.writeln("          <a href=\'https://beian.miit.gov.cn/#/Integrated/index' target=\'_blank\' style=\'color:black;text-decoration: none\'>备案编号：浙ICP备05000021号-1  <a href=\'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002010521\' target=\'_blank\' style=\'color:black;text-decoration: none\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_footer-ico1.png\' alt=\'icon\'>浙公网安备  33011002010521号    </a>网站标识码：3301100001<br>");
+
+document.writeln("          建议使用IE6.0以上浏览器，1024*768以上分辨率<a href=\'http://www.cnzz.com/stat/website.php?web_id=1000062031\' target=\'_blank\'><img src=\'http://icon.cnzz.com/img/pic.gif\' alt=\'icon\'></a>");
+
+document.writeln("        </div>");
+
+document.writeln("        <div class=\'footer-mid-right\'>");
+
+//PC端流动办公
+//document.writeln("             <a href=\'https://ydbg.yuhang.gov.cn\' target=\'_blank\'><img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_footer-pic2.png\' alt=\'pic\'></a>");
+
+document.writeln("  <div class=\'wzjc\' style=\'width:110px;height:50px;margin:0 auto;display:inline-block;padding-right:40px;\'>");
+document.writeln("    <script type=\'text/javascript\' id=\'_jiucuo_\' sitecode='3301100001' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js' ignoreapd=\'1\'></script>");
+document.writeln("      </div>");
+//PC端余杭微信公众号
+document.writeln("            <img src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/images/28925/yhmh_footer-pic3.png\' alt=\'pic\'>");
+
+document.writeln("        </div>");
+
+document.writeln("    </div>");
+
+
+//PC底部 我为政府找错
+//document.writeln("  <div class=\'wzjc\' style=\'width:110px;height:50px;margin:0 auto;\'>");
+
+//document.writeln("    <script type=\'text/javascript\' id=\'_jiucuo_\' sitecode='3301100001' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js' ignoreapd=\'1\'></script>");
+
+//document.writeln("      </div>");
+
+document.writeln("</div>");
+
+
+
+
+
+document.writeln("<script>");
+
+document.writeln("var _hmt = _hmt || [];");
+
+document.writeln("(function() {");
+
+document.writeln("  var hm = document.createElement(\'script\');");
+
+document.writeln("  hm.src = \'https://hm.baidu.com/hm.js?278093a15ea6076c77e170736ab041c8\';");
+
+document.writeln("  var s = document.getElementsByTagName(\'script\')[0]; ");
+
+document.writeln("  s.parentNode.insertBefore(hm, s);");
+
+document.writeln("})();");
+
+document.writeln("</script>");
+document.writeln("<script src=\'http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/script/343/2112021138466665.js\'></script>");

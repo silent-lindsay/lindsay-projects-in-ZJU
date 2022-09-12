@@ -1,0 +1,13 @@
+document.writeln("<div class=\'layout-nav\'>");
+document.writeln("	<div class=\'layout-nav-top\'>");
+document.writeln("        <ul>");
+document.writeln("            <li id=\'index\' class=\'active\'  style=\'width:11%;\'><a href=\'/\'>首页</a></li>");
+document.writeln("            <li id=\'jggk\' class=\'\'  style=\'width:11%;\'><a href=\'/col/col1532115/index.html\' target=\'_blank\'>走进余杭</a></li>");
+document.writeln("            <li id=\'zcwj\' class=\'\'  style=\'width:11%;\'><a href=\'/col/col1532116/index.html\'>今日余杭</a></li>");
+document.writeln("            <li id=\'ghjh\' class=\'\'  style=\'width:11%;\'><a href=\'/col/col1229172913/index.html\'>政务公开</a></li>");
+document.writeln("            <li id=\'zjxx\' class=\'\'  style=\'width:11%;\'><a href=\'/col/col1532119/index.html\'>公众参与</a></li>");
+document.writeln("            <li id=\'bsfu\' class=\'\'  style=\'width:11%;\'><a href=\'http://www.zjzwfw.gov.cn/zjservice/item/sjdh/list.do?webId=9&eventType=1\'>办事服务</a></li>");
+document.writeln("            <li id=\'gzxx\' class=\'\'  style=\'width:11%;\'><a href=\'/col/col1532117/index.html\'>畅游余杭</a></li>");
+document.writeln("        </ul>");
+document.writeln("    </div>");
+document.writeln("</div>");

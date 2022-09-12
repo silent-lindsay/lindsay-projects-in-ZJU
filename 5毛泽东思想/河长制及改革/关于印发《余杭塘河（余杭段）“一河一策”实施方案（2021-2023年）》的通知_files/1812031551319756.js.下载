@@ -1,0 +1,62 @@
+$(function(){
+	//导航选中状态
+	var xxgk_location = $('.data-title table')[0];
+	if(xxgk_location){
+		if($(xxgk_location).find("a:contains('机构概况')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#jggk").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#jggk2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('政策文件')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#zcwj").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#zcwj2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('规划计划')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#ghjh").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#ghjh2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('资金信息')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#zjxx").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#zjxx2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('工作信息')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#gzxx").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#gzxx2").attr("style","display:block");				
+		}else if($(xxgk_location).find("a:contains('公共服务')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#ggfw").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#ggfw2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('人事信息')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#rsxx").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#rsxx2").attr("style","display:block");			
+		}else if($(xxgk_location).find("a:contains('社会监督')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#shjd").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#shjd2").attr("style","display:block");				
+		}else if($(xxgk_location).find("a:contains('业务信息')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#ywxx").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#ywxx2").attr("style","display:block");				
+		}else if($(xxgk_location).find("a:contains('重点领域信息公开')").length>0){
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#zdly").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#zdly2").attr("style","display:block");				
+		}else{
+			$(".layout-nav-top ul li").removeClass("active");
+			$(".layout-nav-top ul li#index").addClass("active");
+			$(".layout-nav-content").attr("style","display:none");
+			$(".layout-nav-content#index2").attr("style","display:block");				
+		}
+	}
+});

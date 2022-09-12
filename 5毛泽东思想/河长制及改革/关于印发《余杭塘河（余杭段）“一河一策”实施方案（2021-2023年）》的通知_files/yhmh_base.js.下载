@@ -1,0 +1,101 @@
+$(function () {
+    // 时间和天气
+    getWeather();
+    setInterval(getTime, 6000);
+
+    function getWeather() {
+        getTime();
+        getTem();
+    }
+
+    function getTime() {
+        var date = new Date;
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var day = date.getDate();
+        var hour = date.getHours();
+        var minute = date.getMinutes();
+        minute = (minute < 10 ? '0' + minute : minute);
+        var second = date.getSeconds();
+        second = (second < 10 ? '0' + second : second);
+        var weekArry = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        var weekday = weekArry[date.getDay()];
+        var mydate = (year + '年' + month + '月' + day + '日' + ' ' + weekday);
+        $('.date').text(mydate);
+    };
+
+    function getTem() {
+        $.get('https://free-api.heweather.com/v5/weather?city=hangzhou&key=ddbbd63eacc54ad5b45dc2a35a382202', function (data) {
+            var weather = data.HeWeather5[0]
+            var cond = weather.daily_forecast[0].cond.txt_d;
+            var tem = weather.daily_forecast[0].tmp.max + '~' + weather.daily_forecast[0].tmp.min + '℃';
+            $('.tem').text('天气预报：' + cond + ' ' + tem);
+        });
+    };
+
+    // 微信二维码
+    $('.header-top-nav .weichat').hover(function () {
+        $(this).find('.qrcode').stop(true, true).slideDown(200);
+    }, function () {
+        $(this).find('.qrcode').stop(true, true).slideUp(200);
+    });
+
+    // 内容导航
+    // 内容导航
+    var default_index = $('.active').index('.layout-nav-top li');
+    $('.layout-nav-content').eq(default_index).show().siblings('.layout-nav-content').hide();
+    $('.layout-nav-top li').on('click', function () {
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    $('.layout-nav-top li').hover(function () {
+        var index = $(this).parent().find('li').index($(this));
+        $(this).addClass('current').siblings().removeClass('current');
+        $('.layout-nav-content').eq(index).show().siblings('.layout-nav-content').hide();
+    });
+	
+
+	
+	 // 选项卡
+    $('.layui-tab-title li').hover(function () {
+        var index = $(this).parent().find('li').index($(this));
+        $(this).addClass('layui-this').siblings('li').removeClass('layui-this');
+        $(this).closest('.layui-tab').find('.layui-tab-item').eq(index).addClass('layui-show').siblings().removeClass('layui-show');
+    });
+	
+	//主站通用js
+$("#js").click(function(){
+		var key=$('#hotwords').val();
+		if(key=='' || key==null){
+			alert('请输入关键字检索！');
+			$("#hotwords").focus();
+			return false;
+		}else{               
+			$('#search-form').submit();
+		}
+	})
+
+});
+
+
+//设为首页
+function SetHome(url){
+	if (document.all) {
+		document.body.style.behavior='url(#default#homepage)';
+		document.body.setHomePage(url);
+	}else{
+		alert("您的浏览器不支持自动设置页面为首页功能，请您手动在浏览器里设置该页面为首页！");
+	}
+}
+//加入收藏
+function AddFavorite(sURL, sTitle) {
+	sURL =encodeURI(sURL);
+	try{
+		window.external.addFavorite(sURL, sTitle);
+	}catch(e) {
+		try{
+			window.sidebar.addPanel(sTitle, sURL, "");
+		}catch (e){
+			alert("您的浏览器不支持自动加入收藏功能，请使用Ctrl+D进行添加，或手动在浏览器里进行设置！");
+		}
+	}
+}	
